@@ -1,0 +1,31 @@
+.forumBox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 700px;
+}
+
+.forumBox:hover{
+    border: 1px solid rgb(46, 33, 33);
+}
+
+.forumBox_info{
+    display: flex;
+    align-items: center;
+}
+
+.forumBox_forum>h5{
+    color: rgb(129, 129, 129);
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: large;
+}
+
+.forumBox_forum{
+    display: flex;
+    margin-top: 8px;
+}

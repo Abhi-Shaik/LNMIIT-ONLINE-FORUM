@@ -1,0 +1,47 @@
+
+
+
+.modal_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .modal_title > h1 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: bolder;
+  }
+
+  .forgotpass{
+    display: flex;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal_buttons {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    align-items: center;
+  }
+  .modal_buttons > .add {
+    font-size: larger;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    background-color: #222;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  .modal_buttons > .add:hover {
+    background-color: #eee;
+    color: #222;
+  }

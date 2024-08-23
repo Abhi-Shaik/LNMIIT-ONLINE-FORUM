@@ -1,0 +1,27 @@
+.loginBox { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute; /* position the box in the center of the page */
+    top: 50%; /* position the box 50% from the top of the page */
+    left: 50%; /* position the box 50% from the left of the page */
+    transform: translate(-50%, -50%); 
+      
+  }
+
+  .LoginBoxL {
+    width: 500px; 
+    height: 500px; 
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url('https://s10.gifyu.com/images/signin.jpg');
+  }
+
+.LoginBoxR {
+  width: 600px; 
+  height: 600px; 
+  
+}
+  
